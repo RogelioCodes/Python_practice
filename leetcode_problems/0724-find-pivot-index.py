@@ -1,6 +1,6 @@
 """
 #Logic:
-We will first take the sum of all the numbers in the list. Then we will check, at every index, if our sumLeft and sumRight values are equal.
+We will first take the sum of all the numbers in the list. Then we will check, at every index, if our sumLeft and sumRight values are equal. If they are equal, we return the index, if not then we increment sumLeft and calculate sumRight again
 
 So we know that the total = sumleft + sumright and that the pivot index is where sumright == sumleft
 So then we know that sumRight = total - sumLeft, but we must also subtract nums[i](the pivot value we are currently at)
